@@ -4,10 +4,23 @@
     box-sizing: border-box;
 }
 
+html { font-size:62.5%;}
+
+body {
+    background-color: #000080;
+    background-image: url(../page-for-book-project/assets/f0f97d85874a23a12fc2c47d745a7ad4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 main {
+    color: aliceblue;
     text-align: center;
     font-family:'Tahoma', sans-serif;
 }
+
+/*Começo da estilização das Seções*/
 
 section {
     margin: 50px 0;
@@ -18,13 +31,27 @@ section {
     padding: 50px 0;
 }
 
+.section3 p {
+    padding-top: 150px;
+    font-size: 2rem;
+}
+
+.section3 h2 {
+    font-size: 2.5rem;
+}
+
 .section4 {
     border-top: solid 1px gray;
-    padding-top: 50px;
+    padding-top: 49px;
     padding-bottom: 5px;
 }
 
+/*Estilização dos textos*/
+
 h1 {
+    text-shadow: 4px 4px 2px black;
+    font-size: 2.5rem;
+    text-decoration-line: underline;
     margin-top: 50px;
     margin-bottom: 21px;
 }
@@ -34,15 +61,17 @@ img {
 }
 
 h2 {
+    text-shadow: 4px 4px 2px black;
     margin: 20px;
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 p {
     margin: 20px auto;
     width: 100%;
     max-width: 930px;
-    font-size: 16px;
+    font-size: 1.8rem;
+    text-shadow: 4px 4px 2px black;
     line-height: 27px;
 }
 
@@ -62,6 +91,16 @@ a:hover {
 }
 
 span {
+    color: red;
+    text-shadow: 3px 2px 2px #00008B;
     font-weight: bold;
+    font-size: 2.1rem;
 }
 
+/*Responsividade do site*/
+@media (min-width:320px) and (max-width: 980px) {
+    html {font-size: 54%;}
+    section {width: 100%; height: auto;}
+    h1 {text-decoration: none;}
+    p {padding: 0 20px;}
+}

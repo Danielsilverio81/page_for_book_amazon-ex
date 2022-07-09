@@ -26,7 +26,7 @@ This project was based on a layout delivered in the step-by-step project on the 
 
  Na imagem acima, temos um exemplo de como são os Cards explicativo
 
-  <img src=".../../page-for-book-project/assets/page%20for%20book.gif" alt="Gif da pagina de compra do livro demonstrando como ficou!" title="Pagina de compra do livro">
+  <img src=".../../page-for-book-project/assets/book.gif" alt="Gif da pagina de compra do livro demonstrando como ficou!" title="Pagina de compra do livro">
 
   ### Technologies used:
 
