@@ -7,15 +7,12 @@
 html { font-size:62.5%;}
 
 body {
-    background-color: #000080;
-    background-image: url(../page-for-book-project/assets/f0f97d85874a23a12fc2c47d745a7ad4.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #050B55;
 }
 
 
 main {
-    color: aliceblue;
+    color: white;
     text-align: center;
     font-family:'Tahoma', sans-serif;
 }
@@ -23,12 +20,35 @@ main {
 /*Começo da estilização das Seções*/
 
 section {
-    margin: 50px 0;
+    margin: auto;
+}
+
+.section1 {
+    position: relative;
+    top: 0;
+    background-image: url(../page-for-book-project/assets/web-5371562_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .section2,.section3 {
     border-top: solid 1px gray;
-    padding: 50px 0;
+    padding: 40px 0;
+}
+
+.section3 {
+    background-image: url(../page-for-book-project/assets/alien-4713843_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imageAutor { 
+    position: relative;
+    top: 50px;
+    left: 400px;
+    border-radius: 50%;
+    width: 170px;
 }
 
 .section3 p {
@@ -40,7 +60,7 @@ section {
     font-size: 2.5rem;
 }
 
-.section4 {
+.footer {
     border-top: solid 1px gray;
     padding-top: 49px;
     padding-bottom: 5px;
@@ -49,10 +69,10 @@ section {
 /*Estilização dos textos*/
 
 h1 {
-    text-shadow: 4px 4px 2px black;
+    text-shadow: 1px 2px 2px black;
     font-size: 2.5rem;
     text-decoration-line: underline;
-    margin-top: 50px;
+    padding-top: 5px;
     margin-bottom: 21px;
 }
 
@@ -61,7 +81,7 @@ img {
 }
 
 h2 {
-    text-shadow: 4px 4px 2px black;
+    text-shadow: 2px 2px 2px black;
     margin: 20px;
     font-size: 2rem;
 }
@@ -70,12 +90,15 @@ p {
     margin: 20px auto;
     width: 100%;
     max-width: 930px;
-    font-size: 1.8rem;
-    text-shadow: 4px 4px 2px black;
+    font-size: 1.9rem;
+    text-shadow: 1px 2px 2px red;
     line-height: 27px;
 }
 
 a {
+    margin: 10px 0;
+    position: relative;
+    bottom: 10px;
     color: #ffff;
     background-color: rgb(24, 190, 93);
     padding:5px 15px;
@@ -86,6 +109,7 @@ a {
 }
 
 a:hover {
+    border: 2px solid white;
     background-color: blue;
     
 }
