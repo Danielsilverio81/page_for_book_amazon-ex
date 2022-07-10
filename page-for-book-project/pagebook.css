@@ -116,7 +116,7 @@ a:hover {
 }
 
 span {
-    color: red;
+    color: rgb(202, 32, 32);
     text-shadow: 3px 2px 2px #00008B;
     font-weight: bold;
     font-size: 2.1rem;
