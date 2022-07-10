@@ -28,7 +28,7 @@ The project came without background images, I placed the images and modified the
 
  Na imagem acima, temos um exemplo de como são os Cards explicativo
 
-  <img src=".../../page-for-book-project/assets/book2.gif" alt="Gif da pagina de compra do livro demonstrando como ficou!" title="Pagina de compra do livro">
+  <img src=".../../page-for-book-project/assets/book2.gif" alt="Gif da pagina de compra do livro demonstrando como ficou!" title="Pagina livro">
 
   ### Technologies used:
 
